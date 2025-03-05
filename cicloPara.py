@@ -17,3 +17,15 @@ def piramideAsteriscos():
 
 if __name__ == "__main__":
     piramideAsteriscos()
+
+
+# ========== Mostrar los numeros pares ==========#
+
+def mostrarNumeroPares():
+    for i in range(1, 21 ):
+        if i % 2 == 0 :
+            print(i 12)
+
+
+if __name__ == "__main__": 
+    mostrarNumeroPares()   
