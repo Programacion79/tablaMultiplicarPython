@@ -23,9 +23,27 @@ if __name__ == "__main__":
 
 def mostrarNumeroPares():
     for i in range(1, 21 ):
-        if i % 2 == 0 :
-            print(i 12)
+        if i % 2 == 0:
+            print(i)
 
 
 if __name__ == "__main__": 
     mostrarNumeroPares()   
+
+
+# ========== verificar los números primos ==========#    
+def vrifNumPrimos():
+    Nro = int(input("Ingrese un número: "))
+
+    es_primo = True
+    for i in range(2, Nro):
+        if Nro % i == 0:
+            es_primo = False
+            break
+    if es_primo:
+        print(f'{Nro} es un numero primo')
+    else:
+        print(f'{Nro} no es número primo')            
+
+if __name__ == "__main__":  
+    vrifNumPrimos()  
